@@ -16,7 +16,6 @@ import Money from '../utils/money';
  *
  */
 export default Ember.Handlebars.registerBoundHelper('format-money', function(money, options) {
-  console.log('formatting some money!!!');
   var summarize = options.hash.summarize || false;
   var format = '$0,0.00';
 
